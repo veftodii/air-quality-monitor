@@ -1,0 +1,87 @@
+--- Available filters and text transformations: colorize, debug, default, direct, esp32_exception_decoder, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at http://bit.ly/pio-monitor-filters
+--- Miniterm on COM3  115200,8,N,1 ---
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
+�[Z�    ␒��ѱ����Ɂchip revision: 0␛[0m
+␛[0;32mI (39) boot.esp32: SPI Speed      : 40MHz␛[0m
+␛[0;32mI (44) boot.esp32: SPI Mode       : DIO␛[0m
+␛[0;32mI (49) boot.esp32: SPI Flash Size : 4MB␛[0m
+␛[0;32mI (53) boot: Enabling RNG early entropy source...␛[0m
+␛[0;32mI (59) boot: Partition Table:␛[0m
+␛[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length␛[0m
+␛[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000␛[0m
+␛[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000␛[0m
+␛[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000␛[0m
+␛[0;32mI (92) boot: End of partition table␛[0m
+␛[0;32mI (96) boot_comm: chip revision: 1, min. application chip revision: 0␛[0m
+␛[0;32mI (103) esp_image: segment 0: paddr=0x00010020 vaddr=0x3f400020 size=0x1f628 (128552) map␛[0m
+␛[0;32mI (161) esp_image: segment 1: paddr=0x0002f650 vaddr=0x3ffb0000 size=0x009c8 (  2504) load␛[0m
+␛[0;32mI (163) esp_image: segment 2: paddr=0x00030020 vaddr=0x400d0020 size=0x8bbd0 (572368) map␛[0m
+␛[0;32mI (386) esp_image: segment 3: paddr=0x000bbbf8 vaddr=0x3ffb09c8 size=0x02f80 ( 12160) load␛[0m
+␛[0;32mI (391) esp_image: segment 4: paddr=0x000beb80 vaddr=0x40080000 size=0x00404 (  1028) load␛[0m
+␛[0;32mI (393) esp_image: segment 5: paddr=0x000bef8c vaddr=0x40080404 size=0x14f20 ( 85792) load␛[0m
+␛[0;32mI (450) boot: Loaded app from partition at offset 0x10000␛[0m
+␛[0;32mI (450) boot: Disabling RNG early entropy source...␛[0m
+␛[0;32mI (451) cpu_start: Pro cpu up.␛[0m
+␛[0;32mI (454) cpu_start: Application information:␛[0m
+␛[0;32mI (459) cpu_start: Project name:     Test1␛[0m
+␛[0;32mI (464) cpu_start: App version:      1␛[0m
+␛[0;32mI (468) cpu_start: Compile time:     Jan  7 2021 23:24:21␛[0m
+␛[0;32mI (474) cpu_start: ELF file SHA256:  4b9b98de62f88362...␛[0m
+␛[0;32mI (480) cpu_start: ESP-IDF:          3.40100.200827␛[0m
+␛[0;32mI (486) cpu_start: Starting app cpu, entry point is 0x400811cc␛[0m
+␛[0;32mI (0) cpu_start: App cpu up.␛[0m
+␛[0;32mI (496) heap_init: Initializing. RAM available for dynamic allocation:␛[0m
+␛[0;32mI (503) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM␛[0m
+␛[0;32mI (509) heap_init: At 3FFB9470 len 00026B90 (154 KiB): DRAM␛[0m
+␛[0;32mI (515) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM␛[0m
+␛[0;32mI (522) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM␛[0m
+␛[0;32mI (528) heap_init: At 40095324 len 0000ACDC (43 KiB): IRAM␛[0m
+␛[0;32mI (534) cpu_start: Pro cpu start user code␛[0m
+␛[0;32mI (553) spi_flash: detected chip: generic␛[0m
+␛[0;32mI (553) spi_flash: flash io: dio␛[0m
+␛[0;32mI (554) cpu_start: Starting scheduler on PRO CPU.␛[0m
+␛[0;32mI (0) cpu_start: Starting scheduler on APP CPU.␛[0m
+␛[0;32mI (562) AQM: [APP] Startup ...␛[0m
+␛[0;32mI (562) AQM: [APP] Free memory: 272312 bytes␛[0m
+␛[0;32mI (572) AQM: [APP] IDF version: 3.40100.200827␛[0m
+␛[0;32mI (612) AQM: ESP_WIFI_MODE_STA␛[0m
+I (622) wifi:wifi driver task: 3ffc1dfc, prio:23, stack:6656, core=0
+␛[0;32mI (622) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE␛[0m
+␛[0;32mI (622) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE␛[0m
+I (652) wifi:wifi firmware version: 3ea4c76
+I (652) wifi:config NVS flash: enabled
+I (652) wifi:config nano formating: disabled
+I (652) wifi:Init dynamic tx buffer num: 32
+I (652) wifi:Init data frame dynamic rx buffer num: 32
+I (662) wifi:Init management frame dynamic rx buffer num: 32
+I (662) wifi:Init management short buffer num: 32
+I (672) wifi:Init static rx buffer size: 1600
+I (672) wifi:Init static rx buffer num: 10
+I (682) wifi:Init dynamic rx buffer num: 32
+␛[0;32mI (782) phy: phy_version: 4180, cb3948e, Sep 12 2019, 16:39:13, 0, 0␛[0m
+I (782) wifi:mode : sta (7c:9e:bd:e3:c4:1c)
+␛[0;32mI (782) AQM: WiFiInitStation() finished␛[0m
+I (902) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1
+I (912) wifi:state: init -> auth (b0)
+I (912) wifi:state: auth -> assoc (0)
+I (922) wifi:state: assoc -> run (10)
+I (922) wifi:connected with Eftodii House-1   2.4GHz, aid = 2, channel 1, BW20, bssid = 98:de:d0:a4:05:dc
+I (922) wifi:security: Open Auth, phy: bgn, rssi: -41
+I (932) wifi:pm start, type: 1
+
+I (932) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+␛[0;32mI (1612) esp_netif_handlers: sta ip: 192.168.0.104, mask: 255.255.255.0, gw: 192.168.0.1␛[0m
+␛[0;32mI (1612) AQM: Connected to "Eftodii House-1   2.4GHz"␛[0m
+␛[0;32mI (1612) AQM: Allocated IP address: 192.168.0.104␛[0m
+␛[0;32mI (1622) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE␛[0m
+␛[0;32mI (1632) AQM: Other event: id = 7␛[0m
+MQ7: 883 (876 mV)       MQ135: 1096 (1053 mV)
+␛[0;32mI (1742) AQM: MQTT_EVENT_CONNECTED␛[0m
+␛[0;32mI (1792) AQM: MQTT_EVENT_PUBLISHED: msg_id = 58013␛[0m
+MQ7: 895 (886 mV)       MQ135: 1106 (1061 mV)
+␛[0;32mI (6792) AQM: MQTT_EVENT_PUBLISHED: msg_id = 33901␛[0m
+MQ7: 897 (888 mV)       MQ135: 1105 (1061 mV)
+␛[0;32mI (11802) AQM: MQTT_EVENT_PUBLISHED: msg_id = 41382␛[0m
+MQ7: 899 (889 mV)       MQ135: 1106 (1061 mV)
+␛[0;32mI (16812) AQM: MQTT_EVENT_PUBLISHED: msg_id = 58089␛[0m
