@@ -5,7 +5,7 @@ Create a program based on [ESP32](https://www.espressif.com/en/products/socs/esp
 The program needs to measure the concentration of carbon monoxide using the MQ-7 gas sensor and detect smoke using the MQ-135 gas sensor.
 
 > [!NOTE]
-> This task description is approximate.
+> This task description is approximate and is part of an interview for a 12-months internship in Germany.
 
 **Screenshots of [Mqtt Dashboard](https://play.google.com/store/apps/details?id=com.app.vetru.mqttdashboard) Android application**
 
